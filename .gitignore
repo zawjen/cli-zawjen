@@ -1,7 +1,6 @@
-*.pdf
-*.png
-*.txt
-*.doc
+test/data/out/**/pdf/*.pdf
+test/data/out/**/png/*.png
+test/data/out/**/txt/*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -174,3 +173,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
