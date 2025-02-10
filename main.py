@@ -5,10 +5,10 @@ from sdk.pdf.pdf_to_png import PdfToPng
 
 def main():
     # Convert a single PDF file
-    single_pdf_path = r"C:\data\code\pdf-cli\test\data\2-col.pdf"  # Replace with your PDF file path
+    single_pdf_path = r".\test\data\2-col.pdf"  # Replace with your PDF file path
 
     # Convert all PDFs in a folder
-    folder_path = r"C:\data\books\dictionary\Lisan ul Arab"  # Replace with your folder path containing PDFs
+    folder_path = r".test\data\books\dictionary\Lisan ul Arab"  # Replace with your folder path containing PDFs
 
     # Uncomment one of the options below based on your needs:
 
@@ -28,7 +28,7 @@ def main():
     # column_texts = extractor.extract_text_from_sections()
 
     converter = ImageToTextConverter()  # Initialize the converter
-    text = converter.convert_image_to_text(r"C:\data\code\pdf-cli\test\data\page-001.png")  # Provide the image path
+    text = converter.convert_image_to_text(r".\test\data\page-001.png")  # Provide the image path
     print(text)  # Print the extracted text
     
     # Print extracted Arabic text
